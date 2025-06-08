@@ -13,5 +13,6 @@ class Stack:
     
     def peek(self):
         return self.data[-1]
-
     
+    def len(self):
+        return len(self.data) 
