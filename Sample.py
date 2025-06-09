@@ -7,4 +7,6 @@ def parentheses_checker(expr):
     for c in expr:
         if c in lefty:
             s.push(c)
-            
+        elif c in righty:
+            if s.is_empty():
+                return False 
