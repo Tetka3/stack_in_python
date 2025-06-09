@@ -12,3 +12,4 @@ def parentheses_checker(expr):
                 return False 
             if righty.index(c) != lefty.index(s.pop()):
                 return False 
+    return s.is_empty()
