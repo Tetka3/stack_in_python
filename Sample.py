@@ -1,3 +1,4 @@
+# This program checks for the completeness of parentheses in an expression 
 from stack import Stack
 
 def parentheses_checker(expr):
@@ -14,4 +15,4 @@ def parentheses_checker(expr):
                 return False 
     return s.is_empty()
 
-print(parentheses_checker(']'))
+print(parentheses_checker('[{}]'))
